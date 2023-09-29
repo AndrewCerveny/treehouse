@@ -1,0 +1,31 @@
+.h-area {
+  border: 2px solid black;
+  height: 9%;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tel-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 25%;
+  height: 2.5rem;
+}
+
+.follow-us {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.follow {
+  margin-right: 4%;
+}
+.icon-wrap {
+  width: 40%;
+  margin-left: 8%;
+  display: flex;
+  justify-content: space-evenly;
+}
