@@ -11,12 +11,24 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="link-wrap">
           <ul className="list-cont">
-            <li> 🏠 HomePage</li>
-            <li> 🎟️ Admission</li>
-            <li> 🔖 About</li>
-            <li> 🧁 Party</li>
-            <li> 🎒 Traveling Groups</li>
-            <li> 📱 Contact Us</li>
+            <li>
+              <span>🏠</span> HomePage
+            </li>
+            <li>
+              <span>🎟️</span> Admissions
+            </li>
+            <li>
+              <span>🔖</span> About
+            </li>
+            <li>
+              <span>🧁</span> Party
+            </li>
+            <li>
+              <span>🎒</span> Traveling Groups
+            </li>
+            <li>
+              <span>📱</span> Contact Us
+            </li>
           </ul>
         </div>
       </nav>
