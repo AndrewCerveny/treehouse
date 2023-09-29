@@ -1,0 +1,45 @@
+.news-updates {
+  margin-top: 3%;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.news-img {
+  height: 14rem;
+}
+.news-wrap {
+  margin-top: 2%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+}
+.emblem-wrap {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+}
+.emblem-img {
+  width: 100%;
+}
+.hours-title {
+  margin-top: 3%;
+  width: 40%;
+  margin: 2% auto 0 auto;
+}
+.hours-title img {
+  width: 100%;
+}
+.hours-area {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3% auto 4% auto;
+}
+.hours-p {
+  margin-top: 2%;
+  font-size: 18px;
+}
+.head-t {
+  margin-top: 3%;
+}
