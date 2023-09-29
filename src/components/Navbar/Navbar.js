@@ -1,6 +1,7 @@
 import Header from "../Header/Header";
 import "./Navbar.css";
 import banner from "../../images/Tbanner3.jpg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -12,10 +13,14 @@ const Navbar = () => {
         <div className="link-wrap">
           <ul className="list-cont">
             <li>
-              <span>🏠</span> HomePage
+              <Link to="/">
+                <span>🏠</span> HomePage
+              </Link>
             </li>
             <li>
-              <span>🎟️</span> Admissions
+              <Link to="/admission">
+                <span>🎟️</span> Admissions
+              </Link>
             </li>
             <li>
               <span>🔖</span> About

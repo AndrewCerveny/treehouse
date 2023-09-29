@@ -1,0 +1,14 @@
+.admission-area {
+  position: relative;
+  top: 7rem;
+  height: 100vh;
+}
+.play-zone-pic {
+  width: 40vw;
+}
+.entry-wr h2 {
+  font-size: 3rem;
+}
+.entry-options {
+  border: 2px solid black;
+}
