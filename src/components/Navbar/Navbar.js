@@ -1,14 +1,19 @@
 import Header from "../Header/Header";
 import "./Navbar.css";
-import banner from "../../images/Tbanner3.jpg";
 import { Link } from "react-router-dom";
+// photos
+import banner from "../../images/TH_landscape.jpg";
 
 const Navbar = () => {
   return (
     <section className="nav-area">
-      <section className="banner-bk">
-        <img className="banner-img" src={banner} alt="TreeHouse banner" />
-      </section>
+      <div className="banner-wrap">
+        <div className="title-area">
+          <h1> TreeHouse</h1>
+          <h2> Absolute Best Kids' Play Address </h2>
+        </div>
+        <div></div>
+      </div>
       <nav className="navbar">
         <div className="link-wrap">
           <ul className="list-cont">
@@ -19,7 +24,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link to="/admission">
-                <span>🎟️</span> Admissions
+                <span>🎟️</span> Admission
               </Link>
             </li>
             <li>

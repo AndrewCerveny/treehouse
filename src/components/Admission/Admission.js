@@ -4,9 +4,9 @@ import playZone from "../../images/admission_pg.jpg";
 const Admission = () => {
   return (
     <section className="admission-area">
-      <img className="play-zone-pic" src={playZone} alt="play area picture" />
+      <div className="kids-play-wrap"></div>
       <div className="entry-wr">
-        <h2> 🌳 Admission 🛝 </h2>
+        <h2 className="hours-display"> Admission </h2>
         <section className="entry-options">
           <ul>
             <li> $12 per Child (Adults and Children under 12 months FREE)</li>
@@ -18,19 +18,23 @@ const Admission = () => {
         </section>
       </div>
       <div className="rules-area">
-        <h2> Rules of Conduct </h2>
-        <ul>
-          <li> No outside food,drinks,or cake</li>
-          <li> No outside decorations </li>
-          <li> Children must wear socks </li>
-        </ul>
+        <h3 className="hours-display"> House Rules </h3>
+        <section className="rules-options">
+          <ul>
+            <li> No outside food,drinks,or cake</li>
+            <li> No outside decorations </li>
+            <li> Children must wear socks </li>
+          </ul>
+        </section>
       </div>
       <section className="call-out">
-        <p>
-          {" "}
-          No Longer accepting PUNCH CARDS, GIFT CERTS, TreeHouse CASH etc: Sold
-          by previous owner
-        </p>
+        <div className="announce-wrap">
+          <p className="announce">📢</p>
+          <p>
+            No Longer accepting PUNCH CARDS, GIFT CERTS, TreeHouse CASH etc:
+            Sold by previous owner
+          </p>
+        </div>
       </section>
     </section>
   );
