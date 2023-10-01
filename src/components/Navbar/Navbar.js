@@ -1,34 +1,24 @@
 import Header from "../Header/Header";
 import "./Navbar.css";
-import banner from "../../images/Tbanner3.jpg";
+import { Link } from "react-router-dom";
+// photos
 
 const Navbar = () => {
   return (
     <section className="nav-area">
-      <section className="banner-bk">
-        <img className="banner-img" src={banner} alt="TreeHouse banner" />
-      </section>
       <nav className="navbar">
         <div className="link-wrap">
           <ul className="list-cont">
             <li>
-              <span>🏠</span> HomePage
+              <Link to="/">HomePage</Link>
             </li>
             <li>
-              <span>🎟️</span> Admissions
+              <Link to="/admission">Admission</Link>
             </li>
-            <li>
-              <span>🔖</span> About
-            </li>
-            <li>
-              <span>🧁</span> Party
-            </li>
-            <li>
-              <span>🎒</span> Traveling Groups
-            </li>
-            <li>
-              <span>📱</span> Contact Us
-            </li>
+            <li>About</li>
+            <li>Party</li>
+            <li>Traveling Groups</li>
+            <li>Contact Us</li>
           </ul>
         </div>
       </nav>

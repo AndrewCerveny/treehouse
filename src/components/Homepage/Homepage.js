@@ -1,15 +1,14 @@
 import "./Homepage.css";
 import Homeswiper from "../Homeswipe/Homeswipe";
 // Photos
-import newsUpdate from "../../images/newsUpdate.png";
+import newsUpdate from "../../images/announcement-trans.png";
 import emblem from "../../images/treeHouseEmblem.jpeg";
-import treeHours from "../../images/TreeHours.jpg";
 const Homepage = () => {
   return (
     <section>
       <Homeswiper />
       <div className="hours-title">
-        <img src={treeHours} alt="TreeHouse Hours title" />
+        <h1 className="hours-display">TreeHouse Hours</h1>
       </div>
       <section className="hours-area">
         <article>

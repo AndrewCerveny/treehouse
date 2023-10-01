@@ -1,0 +1,69 @@
+.admission-area {
+  position: relative;
+  top: 16rem;
+  height: 100vh;
+}
+.kids-play-wrap {
+  border: 2px solid black;
+  height: 32rem;
+  width: 80vw;
+  margin: 2% auto 0 auto;
+  background-image: url("../../images/admission_pg.jpg");
+  background-size: 100% 100%;
+}
+.play-zone-pic {
+  width: 40vw;
+}
+.entry-wr h2 {
+  font-size: 5rem;
+}
+.entry-options {
+  border: 2px solid black;
+  width: 50vw;
+  height: 9rem;
+  margin: 1% auto 0 auto;
+  font-size: 20px;
+  background-color: rgba(255, 255, 0, 0.523);
+  border-radius: 13px;
+}
+.entry-options li {
+  list-style: none;
+}
+.hours-display {
+  font-size: 2.7rem;
+}
+.rules-options {
+  border: 2px solid black;
+  width: 50vw;
+  height: 9rem;
+  margin: 1% auto 0 auto;
+  font-size: 23px;
+  background-color: rgba(255, 0, 0, 0.41);
+  border-radius: 13px;
+  padding: 1%;
+}
+
+.rules-options li {
+  list-style: none;
+}
+
+.call-out {
+  border: 2px solid black;
+  height: 5rem;
+  width: 75vw;
+  margin: 2% auto 0 auto;
+  background-color: rgba(128, 0, 128, 0.272);
+  border-radius: 13px;
+}
+.announce-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.announce {
+  font-size: 3rem;
+}
+.announce p {
+  font-size: 18px;
+}

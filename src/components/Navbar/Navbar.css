@@ -1,15 +1,11 @@
 .nav-area {
-  height: 25vh;
+  height: 30vh;
   width: 100vw;
 }
-.banner-img {
-  width: 100vw;
-  height: 14rem;
-}
+
 .navbar {
-  background-color: rgba(245, 245, 220, 0.718);
+  background-color: rgba(211, 211, 211, 0.492);
   z-index: 0;
-  margin-top: -3px;
   width: 100vw;
   height: 3rem;
   margin-left: auto;
