@@ -1,7 +1,7 @@
 import "./Homepage.css";
 import Homeswiper from "../Homeswipe/Homeswipe";
 // Photos
-import newsUpdate from "../../images/newsUpdate.png";
+import newsUpdate from "../../images/announcement-trans.png";
 import emblem from "../../images/treeHouseEmblem.jpeg";
 const Homepage = () => {
   return (

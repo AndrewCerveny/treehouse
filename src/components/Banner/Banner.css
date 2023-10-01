@@ -20,9 +20,8 @@
 }
 .tree {
   position: relative;
-  width: 33%;
-  right: 5.7rem;
-  bottom: 8px;
+  width: 45%;
+  bottom: 5.5rem;
   z-index: 1;
 }
 .title-wrap {

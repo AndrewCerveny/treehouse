@@ -1,6 +1,6 @@
 import React from "react";
 import house from "../../images/iconhouse.png";
-import whiteTree from "../../images/white-tree2.png";
+import whiteTree from "../../images/treebody.png";
 import "./Banner.css";
 
 const Banner = () => {
@@ -12,8 +12,8 @@ const Banner = () => {
           <img className="tree" src={whiteTree} alt="White tree logo" />
         </div>
         <section className="title-wrap">
-          <h1> TreeHouse</h1>
-          <h2> Absolute Best Kids' Play Address </h2>
+          <h1>TreeHouse</h1>
+          <h2>Absolute Best Kids' Play Address </h2>
         </section>
         <section />
       </section>
